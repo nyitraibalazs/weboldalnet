@@ -1,0 +1,1436 @@
+<html style="background-color: white; transition: background-color 0.15s ease 0s;" class="ss-shaded-scrollbars"><head><title>HTML alapok</title>
+</head>
+<body>
+
+<table cellpadding="3" border="1" width="100%">
+
+    <tbody><tr><td bgcolor="lightcyan" align="center">
+        <b>Ezt írjuk a html lapra.</b>
+    </td><td bgcolor="lightcyan" align="center">
+        <b>Ezt látjuk a böngészővel.</b>
+    </td></tr>
+
+    <tr><td bgcolor="moccasin">
+<pre> &lt;HTML&gt;
+ &lt;HEAD&gt;
+ &lt;TITLE&gt;HTML alapok&lt;/TITLE&gt;
+ &lt;/HEAD&gt;
+ &lt;BODY&gt;
+
+ Ez itt a lényeg, ez kerül a lapra.
+ A html lapon a helyköz (egy vagy több)
+ és a sorvége jel(ek) egyenértékűek,
+ mindegyik egy helyközt ér.
+ Ha nem intézkedünk arról, hol legyen
+ újsor kezdés, akkor a böngésző (idegen
+ szóval "browser") annyi szöveget tesz
+ egy sorba, amennyit bír, és szóhatáron
+ kezd új sort.
+ Azt ami két kacsacsőr ("kisebbjel" és
+ "nagyobbjel") között van, "vezérlésre"
+ használja a böngésző, a többi szöveget
+ megjeleníti.
+ A vezérlés valami parancsot jelent a
+ browsernek, ami pl. mondhatja azt,
+ hogyan jelenítse meg a szöveget,
+ vagy hogy mit jelenítsen még meg.
+ (pl. képet).
+ Tekintse meg az itt következő, csak a
+ bal oldalon látható kommentár sorokat.
+ &lt;!-- Ilyen "zárójelek" közé tegyük  --&gt;
+ &lt;!-- a HTML kommentár sorokat.      --&gt;
+
+ &lt;/BODY&gt; &lt;/HTML&gt;
+</pre>
+    </td><td bgcolor="moccasin">
+        Ez itt a lényeg, ez kerül a lapra.
+        A html lapon a helyköz (egy vagy több)
+        és a sorvége jel(ek) egyenértékűek,
+        mindegyik egy helyközt ér.
+        Ha nem intézkedünk arról, hol legyen
+        újsor kezdés, akkor a böngésző (idegen
+        szóval "browser") annyi szöveget tesz
+        egy sorba, amennyit bír, és szóhatáron
+        kezd új sort.
+        Azt ami két kacsacsőr ("kisebbjel" és
+        "nagyobbjel") között van, "vezérlésre"
+        használja a böngésző, a többi szöveget
+        megjeleníti.
+        A vezérlés valami parancsot jelent a
+        browsernek, ami pl. mondhatja azt,
+        hogyan jelenítse meg a szöveget,
+        vagy hogy mit jelenítsen még meg.
+        (pl. képet).
+        Tekintse meg az itt következő, csak a
+        bal oldalon látható kommentár sorokat.
+        <!-- Ilyen "zárójelek" közé tegyük  -->
+        <!-- a HTML kommentár sorokat.      -->
+        <p></p><hr>
+        <p>Megjegyzések:
+        </p><blockquote>
+        A csak a bal oldalon látható,
+        nagyobbrészt vezérlőjeleket tartalmazó
+        keretsorok (első 5 és utolsó sor)
+        minden html lapon kellenek.
+        A "TITLE" utáni szöveg a böngésző
+        fejlécsorába kerül. Lehetőleg ne
+        legyen benne ékezetes betű!
+        <p>Ezek a megjegyzések viszont csak
+            itt a jobb oldalon látszanak.
+            A továbbiakban már mindig "egyezni"
+            fog a bal- és jobboldal.
+        </p></blockquote>
+    </td></tr>
+
+    <tr><td bgcolor="white">
+<pre> Így lehet megmondani, &lt;BR&gt;hogy hol
+ akarunk feltétlen&lt;BR&gt;új sort kezdeni.
+ &lt;P&gt;Így pedig új bekezdést.
+
+ További tagolási lehetőségekről később
+ lesz majd szó.&lt;P&gt;Az persze nem árt, ha
+ az   itteninél   jobban        hasonlít
+ a    html  forrásszöveg    tagolása   a
+ megjelenítendő               tagolásra.
+</pre>
+    </td><td bgcolor="white">
+        Így lehet megmondani, <br>hogy hol
+        akarunk feltétlen<br> új sort kezdeni.
+        <p>Így pedig új bekezdést.
+
+            További tagolási lehetőségekről később
+            lesz majd szó.</p><p>Az persze nem árt, ha
+        az   itteninél   jobban        hasonlít
+        a    html  forrásszöveg    tagolása   a
+        megjelenítendő               tagolásra.
+    </p></td></tr>
+
+    <tr><td bgcolor="salmon">
+<pre> Így lehet &lt;B&gt;kétféle&lt;/B&gt;, nem mindig
+ azonos &lt;STRONG&gt;kövér&lt;/STRONG&gt;,
+ &lt;I&gt;kétféle&lt;/I&gt; &lt;EM&gt;dőlt&lt;/EM&gt;,
+ &lt;U&gt;aláhúzott&lt;/U&gt;, &lt;BLINK&gt;villogó&lt;/BLINK&gt;
+ ill.  &lt;KBD&gt;FIX jelszélességű&lt;/KBD&gt;
+ szövegrészt írni.
+ &lt;P&gt;&lt;B&gt;&lt;U&gt;Kombinálhatjuk is.&lt;/B&gt;&lt;/U&gt;
+ &lt;P&gt;Így pedig &lt;SUP&gt;felső&lt;/SUP&gt;, ill.
+ &lt;SUB&gt;alsó&lt;/SUB&gt; indexet írhatunk.
+ &lt;P&gt;Lehetőség van a &lt;TT&gt;TT=teletype&lt;/TT&gt;,
+ &lt;BIG&gt;BIG&lt;/BIG&gt;, &lt;SMALL&gt;SMALL&lt;/SMALL&gt;
+ és &lt;STRIKE&gt;STRIKE&lt;/STRIKE&gt; jeltipusok
+ használatára. (Nem minden böngésző érti
+ mindegyiket. Ha nem érti, figyelmen
+ kívül hagyja.)
+ &lt;P&gt;Láthatjuk, hogy egy parancs
+ hatása olyan másikkal zárható le,
+ ami a "parancs"-szó ismétléséből és egy
+ az elé tett "/" jelből áll.
+</pre>
+    </td><td bgcolor="salmon">
+        Így lehet <b>kétféle</b>, nem mindig
+        azonos <strong>kövér</strong>,
+        <i>kétféle</i> <em>dőlt</em>,
+        <u>aláhúzott</u>, <blink>villogó</blink>
+        ill.  <kbd>FIX jelszélességű</kbd>
+        szövegrészt írni.
+        <p><b><u>Kombinálhatjuk is.</u></b>
+        </p><p>Így pedig <sup>felső</sup>, ill.
+        <sub>alsó</sub> indexet írhatunk.
+    </p><p>Lehetőség van a <tt>TT=teletype</tt>,
+        <big>BIG</big>, <small>SMALL</small>
+        és <strike>STRIKE</strike> jeltipusok
+        használatára. (Nem minden böngésző érti
+        mindegyiket. Ha nem érti, figyelmen
+        kívül hagyja.)
+    </p><p>Láthatjuk, hogy egy parancs
+        hatása olyan másikkal zárható le,
+        ami a "parancs"-szó ismétléséből és egy
+        az elé tett "/" jelből áll.
+    </p></td></tr>
+
+    <tr><td bgcolor="darkorange">
+<pre> A "FONT" paranccsal betűméretet vagy
+ betűszínt állíthatunk be. A méret 1-től
+ kezdve növekszik, a szín vagy angol
+ elnevezés (140 lehetőségből),
+ vagy RGB kód #RRGGBB formában. Az RGB
+ (Red=piros, Green=zöld, Blue=kék) kód
+ hexadecimálisan (16-os számrendszerben)
+ írandó, és így a piros-zöld-kék arányt
+ több, mint 16 millió módon adhatjuk meg
+ (#000000 és #FFFFFF között). Más kérdés,
+ hogy a szemünk (és a képernyőnk) hány
+ színt tud megkülönböztetni.
+ (Bölcsészeknek: A színkód egy # jelet
+ követő olyan 6 jel, amiben számjegyek és
+ az ABCDEF betűk állhatnak.)
+ &lt;CENTER&gt;
+ &lt;P&gt;&lt;B&gt;Néhány példa:&lt;/B&gt;
+ &lt;P&gt; &lt;FONT SIZE=1&gt;1-es méret&lt;/FONT&gt;
+ &lt;BR&gt;&lt;FONT SIZE=2&gt;2-es méret&lt;/FONT&gt;
+ &lt;BR&gt;&lt;FONT SIZE=3&gt;3-as méret&lt;/FONT&gt;
+ &lt;BR&gt;&lt;FONT SIZE=4&gt;4-es méret&lt;/FONT&gt;
+ &lt;BR&gt;&lt;FONT SIZE=5&gt;5-ös méret&lt;/FONT&gt;
+ &lt;BR&gt;&lt;FONT SIZE=6&gt;6-os méret&lt;/FONT&gt;
+ &lt;BR&gt;&lt;B&gt;&lt;FONT COLOR=red&gt;red&lt;/FONT&gt;
+     &lt;FONT COLOR=#FF0000&gt;= #FF0000&lt;/FONT&gt;
+ &lt;BR&gt;&lt;FONT COLOR=green&gt;green&lt;/FONT&gt;
+     &lt;FONT COLOR=#008000&gt;= #008000&lt;/FONT&gt;
+ &lt;BR&gt;&lt;FONT COLOR=lime&gt;lime&lt;/FONT&gt;
+     &lt;FONT COLOR=#00FF00&gt;= #00FF00&lt;/FONT&gt;
+ &lt;BR&gt;&lt;FONT COLOR=blue&gt;blue&lt;/FONT&gt;
+     &lt;FONT COLOR=#0000FF&gt;= #0000FF&lt;/FONT&gt;
+ &lt;BR&gt;&lt;FONT COLOR=#ABCDEF SIZE=5&gt;#ABCDEF
+     (nincs neve)&lt;/FONT&gt;&lt;/B&gt;
+ &lt;BR&gt;&lt;FONT COLOR=#123456 SIZE=5&gt;#123456
+     (meg ennek sincs)&lt;/FONT&gt;&lt;/B&gt;
+ &lt;P&gt;A példa a "CENTER" hatását is
+ mutatja.
+ &lt;/CENTER&gt;
+</pre>
+    </td><td bgcolor="darkorange">
+        A "FONT" paranccsal betűméretet vagy
+        betűszínt állíthatunk be. A méret 1-től
+        kezdve növekszik, a szín vagy angol
+        elnevezés (140 lehetőségből),
+        vagy RGB kód #RRGGBB formában. Az RGB
+        (Red=piros, Green=zöld, Blue=kék) kód
+        hexadecimálisan (16-os számrendszerben)
+        írandó, és így a piros-zöld-kék arányt
+        több, mint 16 millió módon adhatjuk meg
+        (#000000 és #FFFFFF között). Más kérdés,
+        hogy a szemünk (és a képernyőnk) hány
+        színt tud megkülönböztetni.
+        (Bölcsészeknek: A színkód egy # jelet
+        követő olyan 6 jel, amiben számjegyek és
+        az ABCDEF betűk állhatnak.)
+        <center>
+            <p><b>Néhány példa:</b>
+            </p><p> <font size="1">1-es méret</font>
+            <br><font size="2">2-es méret</font>
+            <br><font size="3">3-as méret</font>
+            <br><font size="4">4-es méret</font>
+            <br><font size="5">5-ös méret</font>
+            <br><font size="6">6-os méret</font>
+            <br><b><font color="red">red</font>
+                <font color="#FF0000">= #FF0000</font>
+                <br><font color="green">green</font>
+                <font color="#008000">= #008000</font>
+                <br><font color="lime">lime</font>
+                <font color="#00FF00">= #00FF00</font>
+                <br><font color="blue">blue</font>
+                <font color="#0000FF">= #0000FF</font>
+                <br><font color="#ABCDEF" size="5">#ABCDEF
+                    (nincs neve)</font></b>
+            <br><font color="#123456" size="5">#123456
+                (meg ennek sincs)</font>
+        </p><p>A példa a "CENTER" hatását is
+            mutatja.
+        </p></center>
+    </td></tr>
+
+    <tr><td bgcolor="springgreen">
+<pre> A FONT parancs SIZE lehetőségével
+ beállítható betűméret géptől és
+ böngészőbeállítástól függ.
+
+ Ez igaz az alábbi &lt;B&gt;címsorokra&lt;/B&gt; is:
+
+ &lt;H1&gt;Ez H1-es címsor&lt;/H1&gt;
+ &lt;H2&gt;Ez H2-es címsor&lt;/H2&gt;
+ &lt;H3&gt;Ez H3-as címsor&lt;/H3&gt;
+ &lt;H4&gt;Ez H4-es címsor&lt;/H4&gt;
+ &lt;H5&gt;Ez H5-ös címsor&lt;/H5&gt;
+ &lt;H6&gt;Ez H6-os címsor&lt;/H6&gt;
+</pre>
+    </td><td bgcolor="springgreen">
+        A FONT parancs SIZE lehetőségével
+        beállítható betűméret géptől és
+        böngészőbeállítástól függ.
+
+        Ez igaz az alábbi <b>címsorokra</b> is:
+
+        <h1>Ez H1-es címsor</h1>
+        <h2>Ez H2-es címsor</h2>
+        <h3>Ez H3-as címsor</h3>
+        <h4>Ez H4-es címsor</h4>
+        <h5>Ez H5-ös címsor</h5>
+        <h6>Ez H6-os címsor</h6>
+    </td></tr>
+
+    <tr><td bgcolor="cornflowerblue">
+<pre> Itt az eredeti sorkezdet.
+ &lt;DL&gt;&lt;DD&gt;Így lehet beljebb kezdeni a
+         sort, amihez az alatta levő
+         sorok is igazodnak.
+ &lt;/DL&gt;
+ &lt;DL&gt;&lt;DD&gt;Ezt a beljebb kezdést akár
+  &lt;DL&gt;&lt;DD&gt;több szinten is lehet
+   &lt;DL&gt;&lt;DD&gt;folytatni.
+   &lt;/DL&gt;majd akár újra
+  &lt;/DL&gt;egyre inkább balra kezdeni.
+ &lt;/DL&gt;
+ &lt;P&gt;Egy másik lehetőség a beljebb
+ kezdésre:
+ &lt;BLOCKQUOTE&gt;
+ &lt;P&gt;Akinek jobban tetszik az, ha egyetlen
+ paranccsal tudja beljebb kezdeni a
+ szöveget, az választhatja az itt is
+ használt "BLOCKQUOTE" lehetőséget.
+ &lt;/BLOCKQUOTE&gt;
+</pre>
+    </td><td bgcolor="cornflowerblue">
+        Itt az eredeti sorkezdet.
+        <dl><dd>Így lehet beljebb kezdeni a
+            sort, amihez az alatta levő
+            sorok is igazodnak.
+        </dd></dl>
+        <dl><dd>Ezt a beljebb kezdést akár
+            <dl><dd>több szinten is lehet
+                <dl><dd>folytatni.
+                </dd></dl>majd akár újra
+            </dd></dl>egyre inkább balra kezdeni.
+        </dd></dl>
+        <p>Egy másik lehetőség a beljebb
+            kezdésre:
+        </p><blockquote>
+        <p>Akinek jobban tetszik az, ha egyetlen
+            paranccsal tudja beljebb kezdeni a
+            szöveget, az választhatja az itt is
+            használt "BLOCKQUOTE" lehetőséget.
+        </p></blockquote>
+    </td></tr>
+
+    <tr><td bgcolor="cyan">
+<pre> &lt;PRE&gt;
+ A   &lt;B&gt;PRE&lt;/B&gt;   kulcsszó   után  álló
+ szöveg úgy lesz tagolva,  ahogy
+                 az editáláskor.
+ Fix szélességűek a jelek ehhez.
+        xxxxxxxxxxxxxxxxxxx
+        x     x     x     x
+        x     x     x     x
+        xxxxxxxxxxxxxxxxxxx
+ A PRE belseje is lehet pl. &lt;B&gt;bold&lt;/B&gt;,
+ vagy &lt;FONT COLOR=red&gt;piros&lt;/FONT&gt;,
+ vagy &lt;FONT SIZE=6&gt;nagy&lt;/FONT&gt;,
+ vagy akár&lt;FONT COLOR=red SIZE=6&gt;&lt;B&gt;
+ nagy piros bold&lt;/FONT&gt;&lt;/B&gt; is,
+ de itt számítanak a beírt helyközök és
+ sorkezdések is.
+ &lt;/PRE&gt;
+</pre>
+    </td><td bgcolor="cyan">
+ <pre> A   <b>PRE</b>   kulcsszó   után  álló
+ szöveg úgy lesz tagolva,  ahogy
+                 az editáláskor.
+ Fix szélességűek a jelek ehhez.
+        xxxxxxxxxxxxxxxxxxx
+        x     x     x     x
+        x     x     x     x
+        xxxxxxxxxxxxxxxxxxx
+ A PRE belseje is lehet pl. <b>bold</b>,
+ vagy <font color="red">piros</font>,
+ vagy <font size="6">nagy</font>,
+ vagy akár<font color="red" size="6"><b>
+ nagy piros bold</b></font> is,
+ de itt számítanak a beírt helyközök és
+ sorkezdések is.
+ </pre>
+    </td></tr>
+
+    <tr><td bgcolor="burlywood">
+<pre> Ha egy "&amp;lt;" jelet akarunk a szövegben
+ megjeleníteni, akkor gond lehet, hogy
+ ezt a böngésző vezérlőjelnek, nem pedig
+ megmutatatandó jelnek tekinti. Ilyen
+ esetekre találták ki azt a szabályt,
+ hogy egy "&amp;amp;" jel és azt követő
+ pontosvessző közé írt bizonyos
+ jelsorozatok egyetlen megjelenítendő
+ jelet képviselnek.
+ &lt;PRE&gt;
+ &lt;B&gt;Jel  Hogy írjuk? Jel neve&lt;/B&gt;
+ &amp;lt;    &amp;amp;lt;        kisebb
+ &amp;gt;    &amp;amp;gt;        nagyobb
+ &amp;amp;    &amp;amp;amp;       "at"-jel
+      &amp;amp;nbsp;      helyköz
+ &amp;aacute;    &amp;amp;aacute;    a'
+ &amp;Aacute;    &amp;amp;Aacute;    A'
+ &amp;iacute;    &amp;amp;iacute;    i'
+ &amp;uacute;    &amp;amp;uacute;    u'
+ &amp;otilde;    &amp;amp;otilde;    o"
+ &amp;ocirc;    &amp;amp;ocirc;     o^
+ &amp;ucirc;    &amp;amp;ucirc;     u^
+ &amp;Ouml;    &amp;amp;Ouml;      O&lt;SUP&gt;..&lt;/SUP&gt;
+ &amp;#223;    &amp;amp;#223;      scharfes s
+ &amp;#251;    &amp;amp;#251;      u"
+ &amp;#134;    &amp;amp;#134;      kereszt
+ &amp;#137;    &amp;amp;#137;      ezrelék
+ &amp;#167;    &amp;amp;#167;      paragrafus
+ &amp;#169;    &amp;amp;#169;      copyright
+ &amp;#176;    &amp;amp;#176;      fok
+ &amp;#187;    &amp;amp;#187;      kettős nagyobb
+ &amp;#171;    &amp;amp;#171;      kettős kisebb
+ &amp;#177;    &amp;amp;#177;      +-&lt;/PRE&gt;
+ (Nem biztos, hogy minden böngésző
+ minden platformon jól mutatja őket!)
+ &lt;P&gt;Látható, hogy maga a &amp;amp; jel is
+ megjeleníthető így.
+ &lt;P&gt;A &amp;amp;nbsp; helyközök mindegyike
+ meg lesz jelenítve,&lt;BR&gt;
+ &amp;nbsp; &amp;nbsp; &amp;nbsp; ahogy az itt
+ a sor elején látszik. &lt;BR&gt;&lt;KBD&gt;
+ &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/KBD&gt;
+ Fix szélességű (KBD) betűtipussal
+ nagyobb ez a helyköz is.
+ Ez ráadásul olyan helyköz, amit nem
+ tekint (szó)elválasztónak a böngésző.
+ &lt;P&gt;A &amp;amp;#223; írásmódban a "#" jel
+ mögött egy tetszőleges UNICODE jel kódja
+ állhat. Decimálisan, mint itt, vagy egy
+ "x" jellel megelőzve hexadecimálisan.
+ &lt;P&gt;Az ékezetes betűk közül nem mindet
+ soroltuk fel, de azok a fentiek
+ alapján már leírhatók.
+ (Vigyázat: nincs &amp;amp;utilde; !)
+ &lt;P&gt;Az ilyen ékezetekkel írt magyar
+ szöveget minden böngésző jól mutatja,
+ de a html szöveg önmagában eléggé
+ olvashatatlanná válik.
+ &lt;P&gt;Ha MS-Windows ékezeteket használunk,
+ az a legtöbb magyarországi gépen jól
+ jelenik meg. Azt is tehetjük, hogy az
+ így szerkesztett szövegből programmal
+ előállítjuk a fenti szabályok szerinti
+ html ékezetes szöveget. A legvakmerőbbek
+ pedig html ékezetes betűket írnak, pláne
+ ha az editoruk ezt egy-egy billentyű
+ leütésével lehetővé teszi.
+</pre>
+    </td><td bgcolor="burlywood">
+        Ha egy "&lt;" jelet akarunk a szövegben
+        megjeleníteni, akkor gond lehet, hogy
+        ezt a böngésző vezérlőjelnek, nem pedig
+        megmutatatandó jelnek tekinti. Ilyen
+        esetekre találták ki azt a szabályt,
+        hogy egy "&amp;" jel és azt követő
+        pontosvessző közé írt bizonyos
+        jelsorozatok egyetlen megjelenítendő
+        jelet képviselnek.
+        <pre> <b>Jel  Hogy írjuk? Jel neve</b>
+ &lt;    &amp;lt;        kisebb
+ &gt;    &amp;gt;        nagyobb
+ &amp;    &amp;amp;       "at"-jel
+      &amp;nbsp;      helyköz
+ á    &amp;aacute;    a'
+ Á    &amp;Aacute;    A'
+ í    &amp;iacute;    i'
+ ú    &amp;uacute;    u'
+ õ    &amp;otilde;    o"
+ ô    &amp;ocirc;     o^
+ û    &amp;ucirc;     u^
+ Ö    &amp;Ouml;      O<sup>..</sup>
+ ß    &amp;#223;      scharfes s
+ û    &amp;#251;      u"
+ †    &amp;#134;      kereszt
+ ‰    &amp;#137;      ezrelék
+ §    &amp;#167;      paragrafus
+ ©    &amp;#169;      copyright
+ °    &amp;#176;      fok
+ »    &amp;#187;      kettős nagyobb
+ «    &amp;#171;      kettős kisebb
+ ±    &amp;#177;      +-</pre>
+        (Nem biztos, hogy minden böngésző
+        minden platformon jól mutatja őket!)
+        <p>Látható, hogy maga a &amp; jel is
+            megjeleníthető így.
+        </p><p>A &amp;nbsp; helyközök mindegyike
+        meg lesz jelenítve,<br>
+        &nbsp; &nbsp; &nbsp; ahogy az itt
+        a sor elején látszik. <br><kbd>
+            &nbsp; &nbsp; &nbsp;</kbd>
+        Fix szélességű (KBD) betűtipussal
+        nagyobb ez a helyköz is.
+        Ez ráadásul olyan helyköz, amit nem
+        tekint (szó)elválasztónak a böngésző.
+    </p><p>A &amp;#223; írásmódban a "#" jel
+        mögött egy tetszőleges UNICODE jel kódja
+        állhat. Decimálisan, mint itt, vagy egy
+        "x" jellel megelőzve hexadecimálisan.
+    </p><p>Az ékezetes betűk közül nem mindet
+        soroltuk fel, de azok a fentiek
+        alapján már leírhatók.
+        (Vigyázat: nincs &amp;utilde; !)
+    </p><p>Az ilyen ékezetekkel írt magyar
+        szöveget minden böngésző jól mutatja,
+        de a html szöveg önmagában eléggé
+        olvashatatlanná válik.
+    </p><p>Ha MS-Windows ékezeteket használunk,
+        az a legtöbb magyarországi gépen jól
+        jelenik meg. Azt is tehetjük, hogy az
+        így szerkesztett szövegből programmal
+        előállítjuk a fenti szabályok szerinti
+        html ékezetes szöveget. A legvakmerőbbek
+        pedig html ékezetes betűket írnak, pláne
+        ha az editoruk ezt egy-egy billentyű
+        leütésével lehetővé teszi.
+    </p></td></tr>
+
+    <tr><td bgcolor="silver">
+<pre> Az "A" parancs egy másik html lapra
+ irányítja a vezérlést. ("Link"-nek
+ is hívják.) &lt;P&gt;Például arra a lapra,
+ ahol megtaláljuk az összes elnevezett
+ szín nevét, a következő hivatkozással
+ juthatunk:&lt;BR&gt;
+ &lt;A HREF=szinek.htm&gt;Ide kattintson&lt;/A&gt;,
+ ha a színeket akarja látni.
+ &lt;P&gt;Ezen a módon az éppen mutatott
+ html lappal azonos directoryban levő
+ másik ("szinek.htm" nevű) fájlra
+ hivatkozunk.
+ &lt;P&gt;Ha az éppen mutatott html lappal
+ azonos directoryban levő, "lapok"
+ nevű aldirectoryban lenne a
+ "szinek.htm" nevű fájl, akkor
+ &lt;B&gt;HREF=lapok/szinek.htm&lt;/B&gt; lenne
+ a hivatkozás.
+ &lt;P&gt;Ha az éppen mutatott html lapot
+ tartalmazó directoryt tartalmazó
+ directoryban lenne a "szinek.htm",
+ akkor &lt;B&gt;HREF=../szinek.htm&lt;/B&gt;
+ lenne a hivatkozás.
+ &lt;P&gt;Ha viszont egy másik gépen van a
+ hivatkozott lap, akkor a hivatkozás
+ kezdete &lt;B&gt;HREF=http://&lt;/B&gt;,
+ ezt a gép neve követi, aztán a lap
+ neve (az elválasztójel mindig -
+ PC esetén is - "/" jel).
+ Pl. Így jutunk az ELTE &lt;A HREF=
+ http://caesar.elte.hu/progmat&gt;
+ progmat&lt;/A&gt; lapjára.
+</pre>
+    </td><td bgcolor="silver">
+        Az "A" parancs egy másik html lapra
+        irányítja a vezérlést. ("Link"-nek
+        is hívják.) <p>Például arra a lapra,
+        ahol megtaláljuk az összes elnevezett
+        szín nevét, a következő hivatkozással
+        juthatunk:<br>
+        <a href="szinek.htm">Ide kattintson</a>,
+        ha a színeket akarja látni.
+    </p><p>Ezen a módon az éppen mutatott
+        html lappal azonos directoryban levő
+        másik ("szinek.htm" nevű) fájlra
+        hivatkozunk.
+    </p><p>Ha az éppen mutatott html lappal
+        azonos directoryban levő, "lapok"
+        nevű aldirectoryban lenne a
+        "szinek.htm" nevű fájl, akkor
+        <b>HREF=lapok/szinek.htm</b> lenne
+        a hivatkozás.
+    </p><p>Ha az éppen mutatott html lapot
+        tartalmazó directoryt tartalmazó
+        directoryban lenne a "szinek.htm",
+        akkor <b>HREF=../szinek.htm</b>
+        lenne a hivatkozás.
+    </p><p>Ha viszont egy másik gépen van a
+        hivatkozott lap, akkor a hivatkozás
+        kezdete <b>HREF=http://</b>,
+        ezt a gép neve követi, aztán a lap
+        neve (az elválasztójel mindig -
+        PC esetén is - "/" jel).
+        Pl. Így jutunk az ELTE <a href="http://caesar.elte.hu/progmat">
+            progmat</a> lapjára.
+    </p></td></tr>
+
+    <tr><td bgcolor="beige">
+<pre> Az "A HREF=" mögött nem csak "htm"
+ vagy "html" végződésű html lapra
+ hivatkozhatunk, hanem képfájlra is.
+ &lt;P&gt;(Leginkább a .jpg és .gif
+ végződésű képfájl formátumokat
+ ismerik a böngészőprogramok.) &lt;P&gt;Pl.
+ &lt;A HREF=deli.jpg&gt;Ide kattintson&lt;/A&gt;,
+ ha az ELTE-TTK Déli épületét
+ látni akarja.
+</pre>
+    </td><td bgcolor="beige">
+        Az "A HREF=" mögött nem csak "htm"
+        vagy "html" végződésű html lapra
+        hivatkozhatunk, hanem képfájlra is.
+        <p>(Leginkább a .jpg és .gif
+            végződésű képfájl formátumokat
+            ismerik a böngészőprogramok.) </p><p>Pl.
+        <a href="deli.jpg">Ide kattintson</a>,
+        ha az ELTE-TTK Déli épületét
+        látni akarja.
+    </p></td></tr>
+
+    <tr><td bgcolor="tan">
+<pre> &lt;FONT COLOR=yellow&gt;
+ &lt;IMG SRC="kdelihid.jpg" ALIGN=left
+  HSPACE=10 VSPACE=10 BORDER=1&gt;
+ &lt;/FONT&gt;
+ Gyakoribb az, hogy nem külön lapként,
+ hanem az aktuális lapra akarunk
+ képeket behozni. Az "IMG" kulcsszóval
+ tehetjük ezt. Bekeretezhetjük a képet,
+ és a szöveg mögé (ALIGN=right)
+ vagy elé (ALIGN=left) tehetjük,
+ úgy, hogy a szöveg a képet
+ "körülfollya". (ALIGN=top és
+ ALIGN=middle is lehetséges, de nem
+ minden böngésző tudja.)
+ &lt;FONT COLOR=blue&gt;
+ &lt;IMG SRC="kdelihid.jpg" ALIGN=right
+  HSPACE=10 VSPACE=10 BORDER=2
+  WIDTH=120 HEIGHT=80&gt;
+ &lt;/FONT&gt;
+ A "BORDER" mögött a keret méretét,
+ a HSPACE ill. VSPACE mögött a kép
+ mellett ill. az alatta-fölötte levő
+ üres rész méretét (képernyő
+ pontokban) adhatjuk meg. A keret
+ színe az aktuális betűszín, amit
+ minden képre külön beállíthatunk.
+ Ha nem az eredeti méretében akarjuk
+ a képet mutatni, akkor a "HEIGHT="
+ ill. "WIDTH=" paraméter is szóba
+ jöhet. (Ezt is képpontokban mérve.)
+ Ilyenkor torzulhat a kép, ha rossz
+ arányban méretezzük át.
+</pre>
+    </td><td bgcolor="tan">
+        <font color="yellow">
+            <img src="kdelihid.jpg" align="left" hspace="10" vspace="10" border="1">
+        </font>
+        Gyakoribb az, hogy nem külön lapként,
+        hanem az aktuális lapra akarunk
+        képeket behozni. Az "IMG" kulcsszóval
+        tehetjük ezt. Bekeretezhetjük a képet,
+        és a szöveg mögé (ALIGN=right)
+        vagy elé (ALIGN=left) tehetjük,
+        úgy, hogy a szöveg a képet
+        "körülfollya". (ALIGN=top és
+        ALIGN=middle is lehetséges, de nem
+        minden böngésző tudja.)
+        <font color="blue">
+            <img src="kdelihid.jpg" align="right" hspace="10" vspace="10" border="2" width="120" height="80">
+        </font>
+        A "BORDER" mögött a keret méretét,
+        a HSPACE ill. VSPACE mögött a kép
+        mellett ill. az alatta-fölötte levő
+        üres rész méretét (képernyő
+        pontokban) adhatjuk meg. A keret
+        színe az aktuális betűszín, amit
+        minden képre külön beállíthatunk.
+        Ha nem az eredeti méretében akarjuk
+        a képet mutatni, akkor a "HEIGHT="
+        ill. "WIDTH=" paraméter is szóba
+        jöhet. (Ezt is képpontokban mérve.)
+        Ilyenkor torzulhat a kép, ha rossz
+        arányban méretezzük át.
+    </td></tr>
+
+    <tr><td bgcolor="gold">
+<pre> &lt;A HREF=deli.jpg&gt; &lt;IMG SRC="kdeli.jpg"
+    ALIGN=left
+    ALT="ELTE, Déli épület"&gt; &lt;/A&gt;
+ Gyakran a HREF-ben nem szövegre, hanem
+ képre kell kattintani ahhoz, hogy a
+ HREF által mutatott másik lapra jussunk.
+ &lt;P&gt;Ilyenkor célszerű az "ALT=szöveg"
+ paraméter használata.
+ Ez lehetővé teszi, hogy aki pl. nem
+ grafikus böngészővel (pl. lynx-el)
+ nézi a lapot, az is tovább tudjon
+ menni a másik lapra.
+ Neki ilyenkor az &lt;B&gt;ALT=&lt;/B&gt; mögötti
+ szöveg jelenik meg.
+ (Tegyük idézőjelbe a szöveget, ha
+ tartalmaz helyközt is.)
+</pre>
+    </td><td bgcolor="gold">
+        <a href="deli.jpg"> <img src="kdeli.jpg" align="left" alt="ELTE, Déli épület"> </a>
+        Gyakran a HREF-ben nem szövegre, hanem
+        képre kell kattintani ahhoz, hogy a
+        HREF által mutatott másik lapra jussunk.
+        <p>Ilyenkor célszerű az "ALT=szöveg"
+            paraméter használata.
+            Ez lehetővé teszi, hogy aki pl. nem
+            grafikus böngészővel (pl. lynx-el)
+            nézi a lapot, az is tovább tudjon
+            menni a másik lapra.
+            Neki ilyenkor az <b>ALT=</b> mögötti
+            szöveg jelenik meg.
+            (Tegyük idézőjelbe a szöveget, ha
+            tartalmaz helyközt is.)
+        </p></td></tr>
+
+    <tr><td bgcolor="palegreen">
+<pre> &lt;IMG SRC=elte12.jpg USEMAP=#eltemap
+      BORDER=2 ALIGN=right HSPACE=10&gt;
+ &lt;MAP NAME=eltemap&gt;
+  &lt;AREA SHAPE="rect"
+        COORDS="27,141,40,179"
+        HREF=eltei.jpg
+        ALT="Informatikai épület"&gt;
+  &lt;AREA SHAPE="circle"
+        COORDS="87,58,5" HREF=eltef.jpg
+        ALT="Központi épület"&gt;
+  &lt;AREA SHAPE="default" HREF=xy.htm
+        ALT="Javascriptes koordináták"&gt;
+ &lt;/MAP&gt;
+ Azt is megtehetjük, hogy egy képfájl
+ egyes részeit más-más linkre tesszük
+ érzékennyé egy "USEMAP" segítségével.
+ &lt;P&gt;Az USEMAP-nak nem muszáj közvetlenül
+ a képdefiníció után állnia.
+ &lt;P&gt;Az AREA-ban megadott képrészlet lehet
+ "rect=téglalap" (a bal felső és a jobb
+ alsó sarok koordinátáit kell megadni),
+ "circle=kör" (a középpont koordinátáit
+ és a sugár hosszát kell megadni) vagy
+ "poly=sokszög" (a csúcspontok
+ koordinátáit kell megadni).
+ &lt;P&gt;Itt a régi Inf. épület két oszlopa
+ közötti téglalapra kattintva ezt az
+ épületet láthatjuk "nagyban", a központi
+ épületet pedig a tetején levő világos,
+ kör alakú részén keresztül érhetjük el.
+ &lt;P&gt;A "SHAPE=default"-ban adjuk meg a
+ kép további részeire vonatkozó linket.
+ Ez most egy olyan, Javascriptet
+ tartalmazó lap, ami mutatja, hogyan
+ olvashatunk le egy képről koordinátákat.
+ &lt;P&gt;Ha az "AREA SHAPE=default"-ban az
+ itteni további paraméterek helyett csak
+ &lt;B&gt;NOHREF&lt;/B&gt; állna, akkor a kép nagy
+ része nem reagálna az egér lenyomására.
+ &lt;P&gt;Ha az egeret mozgatjuk ezen a képen,
+ akkor alul a státusz sorban láthatjuk
+ is az ALT-ba írt szövegeket. Csak ezek a
+ szövegek lesznek nem grafikus böngésző
+ esetén megjelenítve (a kép helyett).
+ &lt;P&gt;A "BORDER=2" helyett "BORDER=0"-t
+ kellene írni ahhoz, hogy ne legyen
+ kerete a képnek.
+</pre>
+    </td><td bgcolor="palegreen">
+        <img src="elte12.jpg" usemap="#eltemap" border="2" align="right" hspace="10">
+        <map name="eltemap">
+            <area shape="rect" coords="27,141,40,179" href="eltei.jpg" alt="Informatikai épület">
+            <area shape="circle" coords="87,58,5" href="eltef.jpg" alt="Központi épület">
+            <area shape="default" href="xy.htm" alt="Javascriptes koordináták">
+        </map>
+        Azt is megtehetjük, hogy egy képfájl
+        egyes részeit más-más linkre tesszük
+        érzékennyé egy "USEMAP" segítségével.
+        <p>Az USEMAP-nak nem muszáj közvetlenül
+            a képdefiníció után állnia.
+        </p><p>Az AREA-ban megadott képrészlet lehet
+        "rect=téglalap" (a bal felső és a jobb
+        alsó sarok koordinátáit kell megadni),
+        "circle=kör" (a középpont koordinátáit
+        és a sugár hosszát kell megadni) vagy
+        "poly=sokszög" (a csúcspontok
+        koordinátáit kell megadni).
+    </p><p>Itt a régi Inf. épület két oszlopa
+        közötti téglalapra kattintva ezt az
+        épületet láthatjuk "nagyban", a központi
+        épületet pedig a tetején levő világos,
+        kör alakú részén keresztül érhetjük el.
+    </p><p>A "SHAPE=default"-ban adjuk meg a
+        kép további részeire vonatkozó linket.
+        Ez most egy olyan, Javascriptet
+        tartalmazó lap, ami mutatja, hogyan
+        olvashatunk le egy képről koordinátákat.
+    </p><p>Ha az "AREA SHAPE=default"-ban az
+        itteni további paraméterek helyett csak
+        <b>NOHREF</b> állna, akkor a kép nagy
+        része nem reagálna az egér lenyomására.
+    </p><p>Ha az egeret mozgatjuk ezen a képen,
+        akkor alul a státusz sorban láthatjuk
+        is az ALT-ba írt szövegeket. Csak ezek a
+        szövegek lesznek nem grafikus böngésző
+        esetén megjelenítve (a kép helyett).
+    </p><p>A "BORDER=2" helyett "BORDER=0"-t
+        kellene írni ahhoz, hogy ne legyen
+        kerete a képnek.
+    </p></td></tr>
+
+    <tr><td bgcolor="greenyellow">
+<pre> &lt;A NAME=eleje&gt;
+ &lt;A HREF=#vege&gt;Ha ide kattint&lt;/A&gt;, akkor
+ ennek a cellának a &lt;FONT COLOR=blue&gt;
+ kékkel írt&lt;/FONT&gt; sorára pozícinálhat.
+ &lt;P&gt;Ha egy html lapról egy másik lapnak a
+ belsejébe akarunk pozícionálni, akkor a
+ "HREF"-be a fájlnév után közvetlenül
+ egy "#pozíciónév" toldalékot írjunk.
+ Ahová pozícionálni akarunk, oda tegyünk
+ egy "&amp;lt;A NAME=pozíciónév&amp;gt;" alakú
+ pozíciómegjelölést.
+ &lt;P&gt;Amint az itteni példa is mutatja, a
+ dolog működik egy html lapon belül is.
+ &lt;P&gt;Ezzel a módszerrel pl. egy nagyobb
+ lap elejére odatehetjük a lap olyan
+ tartalomjegyzékét, amiből a lap egyes
+ részei közvetlenül elérhetők.
+ &lt;P&gt;&lt;A NAME=vege&gt; &lt;FONT COLOR=blue&gt;
+ &lt;H3&gt;Ez itt a kékkel írt sor.&lt;/H3&gt;&lt;/FONT&gt;
+ &lt;P&gt;Innen a &lt;B&gt;Back&lt;/B&gt; nyomógommbal,
+ vagy &lt;A HREF=#eleje&gt;ide kattintva&lt;/A&gt;
+ vissza is juthat a cella elejére.
+ (A "Back" gombbal csak akkor, ha onnan
+ jött.)
+</pre>
+    </td><td bgcolor="greenyellow">
+        <a name="eleje">
+        </a><a href="#vege">Ha ide kattint</a>, akkor
+        ennek a cellának a <font color="blue">
+        kékkel írt</font> sorára pozícinálhat.
+        <p>Ha egy html lapról egy másik lapnak a
+            belsejébe akarunk pozícionálni, akkor a
+            "HREF"-be a fájlnév után közvetlenül
+            egy "#pozíciónév" toldalékot írjunk.
+            Ahová pozícionálni akarunk, oda tegyünk
+            egy "&lt;A NAME=pozíciónév&gt;" alakú
+            pozíciómegjelölést.
+        </p><p>Amint az itteni példa is mutatja, a
+        dolog működik egy html lapon belül is.
+    </p><p>Ezzel a módszerrel pl. egy nagyobb
+        lap elejére odatehetjük a lap olyan
+        tartalomjegyzékét, amiből a lap egyes
+        részei közvetlenül elérhetők.
+    </p><p><a name="vege"> <font color="blue">
+    </font></a></p><h3><a name="vege"><font color="blue">Ez itt a kékkel írt sor.</font></a></h3><a name="vege">
+    </a><p><a name="vege">Innen a <b>Back</b> nyomógommbal,
+        vagy </a><a href="#eleje">ide kattintva</a>
+        vissza is juthat a cella elejére.
+        (A "Back" gombbal csak akkor, ha onnan
+        jött.)
+    </p></td></tr>
+
+    <tr><td bgcolor="violet">
+<pre> Ha az email címünket fel akarjuk tenni
+ a html lapra, akkor is az "A HREF="-t
+ kell használni:
+ &lt;A HREF=mailto:csa@inf.elte.hu&gt;
+ &lt;P&gt;Ide kattints&lt;/A&gt;, ha levelet akarsz
+ nekem írni.
+</pre>
+    </td><td bgcolor="violet">
+        Ha az email címünket fel akarjuk tenni
+        a html lapra, akkor is az "A HREF="-t
+        kell használni:
+        <a href="mailto:csa@inf.elte.hu">
+        </a><p><a href="mailto:csa@inf.elte.hu">Ide kattints</a>, ha levelet akarsz
+        nekem írni.
+    </p></td></tr>
+
+    <tr><td bgcolor="skyblue">
+<pre> Így lehet megjeleníteni felsorolást
+ &lt;UL&gt;&lt;LI&gt;első
+     &lt;LI&gt;második
+     &lt;LI&gt;harmadik bekezdéssel, amik közül
+         ez a harmadik jóval hosszabb az
+         előző kettőnél, ezért csak több
+         sorban fér el.
+ &lt;/UL&gt;
+</pre>
+    </td><td bgcolor="skyblue">
+        Így lehet megjeleníteni felsorolást
+        <ul><li>első
+        </li><li>második
+        </li><li>harmadik bekezdéssel, amik közül
+            ez a harmadik jóval hosszabb az
+            előző kettőnél, ezért csak több
+            sorban fér el.
+        </li></ul>
+    </td></tr>
+
+    <tr><td bgcolor="silver">
+<pre> Itt azt lehet látni, hogy a felsorolás
+ többszintes is lehet, többféle
+ kezdőjellel.
+ &lt;UL TYPE=round&gt;
+     &lt;LI&gt;Európa
+     &lt;P&gt;&lt;LI&gt;Ázsia
+     &lt;P&gt;&lt;LI&gt;Amerika
+         &lt;ul type=square&gt;
+             &lt;li&gt;Észak-Amerika
+                 &lt;UL TYPE=disc&gt;
+                     &lt;LI&gt;Kanada
+                     &lt;LI&gt;USA
+                 &lt;/UL&gt;
+             &lt;li&gt;Közép-Amerika
+             &lt;li&gt;Dél-Amerika
+         &lt;/ul&gt;
+     &lt;P&gt;&lt;LI&gt;Afrika
+ &lt;/UL&gt;
+ &lt;P&gt;Természetesen nem attól függ a
+ listaelemek beljebb kezdése, hogy a
+ html szövegben hol kezdjük őket.
+ &lt;P&gt;Azt is láthatjuk, hogy a html vezérlő
+ jelek kis- és nagybetűkkel is írhatók.
+</pre>
+    </td><td bgcolor="silver">
+        Itt azt lehet látni, hogy a felsorolás
+        többszintes is lehet, többféle
+        kezdőjellel.
+        <ul type="round">
+            <li>Európa
+                <p></p></li><li>Ázsia
+            <p></p></li><li>Amerika
+            <ul type="square">
+                <li>Észak-Amerika
+                    <ul type="disc">
+                        <li>Kanada
+                        </li><li>USA
+                    </li></ul>
+                </li><li>Közép-Amerika
+            </li><li>Dél-Amerika
+            </li></ul>
+            <p></p></li><li>Afrika
+        </li></ul>
+        <p>Természetesen nem attól függ a
+            listaelemek beljebb kezdése, hogy a
+            html szövegben hol kezdjük őket.
+        </p><p>Azt is láthatjuk, hogy a html vezérlő
+        jelek kis- és nagybetűkkel is írhatók.
+    </p></td></tr>
+
+    <tr><td bgcolor="yellow">
+<pre> Ha "UL" helyett "OL"-t írunk,
+ akkor a felsorolás tagjai
+ a tipustól (type) függően
+ &lt;OL TYPE=i&gt;
+     &lt;LI&gt;számozva (TYPE=1, elhagyható)
+     &lt;LI&gt;római számozva (TYPE=I)
+     &lt;LI&gt;kis római számozva (TYPE=i)
+     &lt;LI&gt;kisbetűzve (TYPE=a)
+     &lt;LI&gt;vagy nagybetűzve (TYPE=A)
+ &lt;/OL&gt;
+ lesznek.
+ &lt;P&gt;&lt;UL&gt;
+     &lt;LH&gt;(Beljebb kezdett) listafejlécet
+     &lt;LI&gt;is
+     &lt;LI&gt;megadhatunk
+     &lt;LI&gt;"OL" és "UL" lista
+     &lt;LI&gt;esetén is.
+ &lt;/UL&gt;
+</pre>
+    </td><td bgcolor="yellow">
+        Ha "UL" helyett "OL"-t írunk,
+        akkor a felsorolás tagjai
+        a tipustól (type) függően
+        <ol type="i">
+            <li>számozva (TYPE=1, elhagyható)
+            </li><li>római számozva (TYPE=I)
+        </li><li>kis római számozva (TYPE=i)
+        </li><li>kisbetűzve (TYPE=a)
+        </li><li>vagy nagybetűzve (TYPE=A)
+        </li></ol>
+        lesznek.
+        <p></p><ul>
+        <lh>(Beljebb kezdett) listafejlécet
+            <li>is
+            </li><li>megadhatunk
+            </li><li>"OL" és "UL" lista
+            </li><li>esetén is.
+            </li></lh></ul>
+    </td></tr>
+
+    <tr><td bgcolor="sandybrown">
+<pre> &lt;DL COMPACT&gt;
+  &lt;DT&gt;&lt;P&gt;&lt;B&gt;egy &lt;/B&gt;&lt;DD&gt;Itt arra
+    láthatunk példát, hogyan lehet egyéb
+    html elemekből "fogalom magyarázat"
+    jellegű, ún. "definíciós" listát
+    felépíteni,
+  &lt;DT&gt;&lt;P&gt;&lt;B&gt;kettő &lt;/B&gt;&lt;DD&gt;és, hogy
+    milyen ennek a megjelenési formája.
+  &lt;DT&gt;&lt;P&gt;&lt;B&gt;három a magyar igazság&lt;/B&gt;
+    &lt;DD&gt;Természetesen nem kötelező a
+    "fogalom" kövérítése és a listaelemek
+    közötti (a "P" hatására keletkezett)
+    üres sorok használata.
+  &lt;DT&gt;&lt;P&gt;&lt;B&gt;négy &lt;/B&gt;&lt;DD&gt;A "DL"-be írt
+    "COMPACT" hatására kerül egy sorba a
+    rövid "fogalom" a "magyarázattal",
+  &lt;DT&gt;&lt;P&gt;&lt;B&gt;öt &lt;/B&gt;&lt;DD&gt;ahogy itt is.
+ &lt;/DL&gt;
+</pre>
+    </td><td bgcolor="sandybrown">
+        <dl compact="">
+            <dt><p><b>egy </b></p></dt><dd>Itt arra
+            láthatunk példát, hogyan lehet egyéb
+            html elemekből "fogalom magyarázat"
+            jellegű, ún. "definíciós" listát
+            felépíteni,
+        </dd><dt><p><b>kettő </b></p></dt><dd>és, hogy
+            milyen ennek a megjelenési formája.
+        </dd><dt><p><b>három a magyar igazság</b>
+        </p></dt><dd>Természetesen nem kötelező a
+            "fogalom" kövérítése és a listaelemek
+            közötti (a "P" hatására keletkezett)
+            üres sorok használata.
+        </dd><dt><p><b>négy </b></p></dt><dd>A "DL"-be írt
+            "COMPACT" hatására kerül egy sorba a
+            rövid "fogalom" a "magyarázattal",
+        </dd><dt><p><b>öt </b></p></dt><dd>ahogy itt is.
+        </dd></dl>
+    </td></tr>
+
+    <tr><td bgcolor="silver">
+<pre> Néhány egyéb effektus:
+ &lt;P&gt;&lt;HR&gt;&lt;HR noshade&gt;
+ Itt húztunk egy árnyékolt, és egy nem
+ árnyékolt vonalat.
+ &lt;SPACER TYPE=VERTICAL SIZE=15&gt;
+ Aztán függőlegesen kihagytunk 15
+ képpontnyi helyet.
+ &lt;HR ALIGN=center SIZE=10 WIDTH=200&gt;
+ Aztán húztunk még egy vonalat, ami
+ 10 képpont vastagságú, 200 képpont
+ hosszúságú, és középre van téve.
+ &lt;BR&gt;(Megadható pl. "WIDTH=50%" is, ami
+ azt jelenti, hogy amikor keskenyedik a
+ böngésző ablaka, akkor vele együtt a
+ vonal hossza is csökken.)
+</pre>
+    </td><td bgcolor="silver">
+        Néhány egyéb effektus:
+        <p></p><hr><hr noshade="">
+        Itt húztunk egy árnyékolt, és egy nem
+        árnyékolt vonalat.
+        <spacer type="VERTICAL" size="15">
+            Aztán függőlegesen kihagytunk 15
+            képpontnyi helyet.
+            <hr align="center" size="10" width="200">
+            Aztán húztunk még egy vonalat, ami
+            10 képpont vastagságú, 200 képpont
+            hosszúságú, és középre van téve.
+            <br>(Megadható pl. "WIDTH=50%" is, ami
+            azt jelenti, hogy amikor keskenyedik a
+            böngésző ablaka, akkor vele együtt a
+            vonal hossza is csökken.)
+        </spacer></td></tr>
+
+    <tr><td bgcolor="chartreuse">
+        <a name="tablazat"></a>
+        <pre> Most &lt;B&gt;táblázat&lt;/B&gt;-ot készítünk.
+ &lt;P&gt;A "TABLE" kulcsszó mellett adjuk meg
+ a táblázat fő jellemzőit.
+ &lt;P&gt;A "CAPTION" kulcsszó vezeti be a
+ - nem kötelező - táblázat feliratot.
+ &lt;P&gt;A táblázat minden sorát a "TR"
+ kulcsszó, azon belül minden oszlopát a
+ "TD" kulcsszó kezdi.
+ &lt;P&gt;Ha a "TD" helyett "TH"-t használunk,
+ akkor kövér betűkkel, középre illesztve
+ jelenik meg a cellában a szöveg.
+ &lt;P&gt; &lt;CENTER&gt;
+ &lt;TABLE BORDER=3 BGCOLOR=silver
+        CELLPADDING=4&gt;
+ &lt;CAPTION&gt;Színes táblázat&lt;/CAPTION&gt;
+ &lt;TR&gt;&lt;TH&gt;Cella háttérszíne&lt;/TH&gt;
+   &lt;TH&gt;Szín neve&lt;/TH&gt;
+   &lt;TH&gt;RGB kódja&lt;/TH&gt;&lt;/TR&gt;
+ &lt;TR&gt;&lt;TD BGCOLOR=black&gt;&amp;nbsp;&lt;/TD&gt;
+   &lt;TD&gt;black&lt;/TD&gt;&lt;TD&gt;#000000&lt;/TD&gt;&lt;/TR&gt;
+ &lt;TR&gt;&lt;TD BGCOLOR=blue&gt;&amp;nbsp;&lt;/TD&gt;
+   &lt;TD&gt;blue&lt;/TD&gt;&lt;TD&gt;#0000FF&lt;/TD&gt;&lt;/TR&gt;
+ &lt;TR&gt;&lt;TD BGCOLOR=cyan&gt;&amp;nbsp;&lt;/TD&gt;
+   &lt;TD&gt;cyan&lt;/TD&gt;&lt;TD&gt;#00FFFF&lt;/TD&gt;&lt;/TR&gt;
+ &lt;TR&gt;&lt;TD BGCOLOR=green&gt;&amp;nbsp;&lt;/TD&gt;
+   &lt;TD&gt;green&lt;/TD&gt;&lt;TD&gt;#008000&lt;/TD&gt;&lt;/TR&gt;
+ &lt;TR&gt;&lt;TD BGCOLOR=magenta&gt;&amp;nbsp;&lt;/TD&gt;
+   &lt;TD&gt;magenta&lt;/TD&gt;&lt;TD&gt;#FF00FF&lt;/TD&gt;&lt;/TR&gt;
+ &lt;TR&gt;&lt;TD BGCOLOR=red&gt;&amp;nbsp;&lt;/TD&gt;
+   &lt;TD&gt;red&lt;/TD&gt;&lt;TD&gt;#FF0000&lt;/TD&gt;&lt;/TR&gt;
+ &lt;TR&gt;&lt;TD BGCOLOR=white&gt;&amp;nbsp;&lt;/TD&gt;
+   &lt;TD&gt;white&lt;/TD&gt;&lt;TD&gt;#FFFFFF&lt;/TD&gt;&lt;/TR&gt;
+ &lt;/TABLE&gt; &lt;/CENTER&gt;
+ &lt;P&gt;Látható, hogy a táblázat egészének
+ is lehet háttérszíne (itt "silver")
+ de akár külön az egyes celláinak is.
+ &lt;P&gt;Megadhatjuk a tábla keretének
+ szélességét (BORDER=3), ha ez elmarad,
+ nem lesz kerete a táblázatnak.
+ &lt;P&gt;A "CELLPADDING=4" azt jelenti, hogy
+ a cellákba írt szövegek és a cellafalak
+ között 4 képpont üresen marad.
+ &lt;P&gt;Egy cella csak akkor jelenik meg
+ rendesen, ha van benne valami, legalább
+ egy "látható" helyköz. Ezért van a
+ táblánk színes celláiban &amp;amp;nbsp;.
+ &lt;P&gt;Az oszlopokat ill. sorokat lezáró
+ &amp;lt;/TD&amp;gt; és &amp;lt;/TR&amp;gt; megadása
+ nem kötelező, de meg szokták adni.
+ &lt;P&gt;&lt;HR&gt;&lt;FONT COLOR=blue&gt;&lt;B&gt;
+ &lt;P&gt;Ez az egész lap is egy nagy táblázat,
+ amiben azt a szabályt nehéz betartanom,
+ hogy csak félsorokat írhatok a baloldali
+ oszlopok megjeleníthetősége érdekében.
+ &lt;/FONT&gt;&lt;/B&gt;
+</pre>
+    </td><td bgcolor="chartreuse">
+        Most <b>táblázat</b>-ot készítünk.
+        <p>A "TABLE" kulcsszó mellett adjuk meg
+            a táblázat fő jellemzőit.
+        </p><p>A "CAPTION" kulcsszó vezeti be a
+        - nem kötelező - táblázat feliratot.
+    </p><p>A táblázat minden sorát a "TR"
+        kulcsszó, azon belül minden oszlopát a
+        "TD" kulcsszó kezdi.
+    </p><p>Ha a "TD" helyett "TH"-t használunk,
+        akkor kövér betűkkel, középre illesztve
+        jelenik meg a cellában a szöveg.
+    </p><p> </p><center>
+        <table border="3" bgcolor="silver" cellpadding="4">
+            <caption>Színes táblázat</caption>
+            <tbody><tr><th>Cella háttérszíne</th>
+                <th>Szín neve</th>
+                <th>RGB kódja</th></tr>
+            <tr><td bgcolor="black">&nbsp;</td>
+                <td>black</td><td>#000000</td></tr>
+            <tr><td bgcolor="blue">&nbsp;</td>
+                <td>blue</td><td>#0000FF</td></tr>
+            <tr><td bgcolor="cyan">&nbsp;</td>
+                <td>cyan</td><td>#00FFFF</td></tr>
+            <tr><td bgcolor="green">&nbsp;</td>
+                <td>green</td><td>#008000</td></tr>
+            <tr><td bgcolor="magenta">&nbsp;</td>
+                <td>magenta</td><td>#FF00FF</td></tr>
+            <tr><td bgcolor="red">&nbsp;</td>
+                <td>red</td><td>#FF0000</td></tr>
+            <tr><td bgcolor="white">&nbsp;</td>
+                <td>white</td><td>#FFFFFF</td></tr>
+            </tbody></table> </center>
+        <p>Látható, hogy a táblázat egészének
+            is lehet háttérszíne (itt "silver")
+            de akár külön az egyes celláinak is.
+        </p><p>Megadhatjuk a tábla keretének
+        szélességét (BORDER=3), ha ez elmarad,
+        nem lesz kerete a táblázatnak.
+    </p><p>A "CELLPADDING=4" azt jelenti, hogy
+        a cellákba írt szövegek és a cellafalak
+        között 4 képpont üresen marad.
+    </p><p>Egy cella csak akkor jelenik meg
+        rendesen, ha van benne valami, legalább
+        egy "látható" helyköz. Ezért van a
+        táblánk színes celláiban &amp;nbsp;.
+    </p><p>Az oszlopokat ill. sorokat lezáró
+        &lt;/TD&gt; és &lt;/TR&gt; megadása
+        nem kötelező, de meg szokták adni.
+    </p><p></p><hr><font color="blue"><b>
+    </b></font><b></b><p><b><font color="blue">Ez az egész lap is egy nagy táblázat,
+        amiben azt a szabályt nehéz betartanom,
+        hogy csak félsorokat írhatok a baloldali
+        oszlopok megjeleníthetősége érdekében.
+    </font></b>
+    </p></td></tr>
+
+    <tr><td bgcolor="deepskyblue">
+<pre> Mintákat láthatunk táblázat méretezésre,
+ és szöveg illesztésére a cellákban.
+
+ &lt;P&gt;&lt;TABLE BGCOLOR=orangered WIDTH=100%
+         BORDER=1&gt;
+ &lt;TR&gt;&lt;TD WIDTH=30% ALIGN=center&gt;
+         középre&lt;/TD&gt;
+     &lt;TD ALIGN=right WIDTH=20%&gt;Ez&lt;BR&gt;
+         jobbra&lt;BR&gt;lesz&lt;BR&gt;illesztve&lt;/TD&gt;
+     &lt;TD&gt;balra&lt;/TD&gt;&lt;/TR&gt;
+ &lt;/TABLE&gt;
+
+ &lt;P&gt;"WIDTH=" mögött megadható a táblázat
+ vagy egy cella szélessége képpontokban.
+ "WIDTH=100%" viszont azt jelenti, hogy
+ a tábla töltse ki a html-lap teljes
+ rendelkezésére álló szélességét.
+ Az egyes oszlopokra adott %-os hossz a
+ teljes táblázatszélességre, mint 100%-ra
+ vonatkozik.
+ Ezzel a módszerrel igen rugalmasan
+ adhatók meg "gumi"-táblázatok.
+ &lt;P&gt;Abszolút magasság is megadható a
+ cellákra(TD), "HEIGHT=" mögötti számmal.
+
+ &lt;TABLE BGCOLOR=orangered WIDTH=100%
+        BORDER=1 CELLPADDING=5&gt;
+ &lt;TR&gt;&lt;TD HEIGHT=60 VALIGN=top
+     ALIGN=center&gt;fent középre&lt;/TD&gt;&lt;/TR&gt;
+ &lt;TR&gt;&lt;TD HEIGHT=100 ALIGN=right&gt;
+     &lt;FONT COLOR=cyan&gt;&lt;B&gt;
+     Ez középen&lt;BR&gt;jobbra&lt;BR&gt;lesz
+     illesztve&lt;/FONT&gt;&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+ &lt;TR&gt;&lt;TD HEIGHT=50 VALIGN=bottom&gt;
+     lent balra&lt;/TD&gt;&lt;/TR&gt;
+ &lt;/TABLE&gt;
+
+ &lt;TABLE WIDTH=100% CELLPADDING=5&gt;
+ &lt;TR&gt;&lt;TD ALIGN=right&gt;Ha&lt;BR&gt;elhagyjuk&lt;BR&gt;
+     a&lt;BR&gt;táblázat&lt;BR&gt;keretét&lt;BR&gt;és&lt;BR&gt;
+     színét&lt;BR&gt;is&lt;/TD&gt;
+     &lt;TD&gt;akkor&lt;BR&gt;észre&lt;BR&gt;se&lt;BR&gt;nagyon
+     &lt;BR&gt;vesszük,&lt;BR&gt;hogy&lt;BR&gt;táblázatot
+     &lt;BR&gt;látunk&lt;/TD&gt; &lt;/TR&gt;
+ &lt;/TABLE&gt;
+
+ &lt;CENTER&gt;&lt;TABLE WIDTH=98% BORDER=0
+          CELLPADDING=0 CELLSPACING=0
+ &lt;TR&gt;&lt;TD BGCOLOR=yellow&gt;
+  &lt;TABLE CELLPADDING=16 CELLSPACING=1
+         WIDTH=100% BORDER=0&gt;
+   &lt;TR&gt;&lt;TD BGCOLOR=deepskyblue&gt;
+    Sokan kedvelik azt a keretet,
+    amit nem a BORDER-rel lehet megadni,
+    hanem azzal, amit egy színes (itt
+    sárga) táblázatcellának a nála 1-el
+    kisebb méretű (CELLSPACING=1)
+    táblázat által le nem takart része
+    eredményez.
+   &lt;/TD&gt;&lt;/TR&gt;&lt;TR&gt;&lt;TD BGCOLOR=deepskyblue&gt;
+    Ennek a keretnek a színe független a
+    betűszíntől, a formája is más, mint
+    a BORDER-el kapott kereté.
+  &lt;/TD&gt;&lt;/TR&gt;&lt;/TABLE&gt;
+ &lt;/TD&gt;&lt;/TR&gt;&lt;/TABLE&gt;
+</pre>
+    </td><td bgcolor="deepskyblue">
+        Mintákat láthatunk táblázat méretezésre,
+        és szöveg illesztésére a cellákban.
+
+        <p><table bgcolor="orangered" width="100%" border="1">
+        <tbody><tr><td width="30%" align="center">
+            középre</td>
+            <td align="right" width="20%">Ez<br>
+                jobbra<br>lesz<br>illesztve</td>
+            <td>balra</td></tr>
+        </tbody></table>
+
+        </p><p>"WIDTH=" mögött megadható a táblázat
+        vagy egy cella szélessége képpontokban.
+        "WIDTH=100%" viszont azt jelenti, hogy
+        a tábla töltse ki a html-lap teljes
+        rendelkezésére álló szélességét.
+        Az egyes oszlopokra adott %-os hossz a
+        teljes táblázatszélességre, mint 100%-ra
+        vonatkozik.
+        Ezzel a módszerrel igen rugalmasan
+        adhatók meg "gumi"-táblázatok.
+    </p><p>Abszolút magasság is megadható a
+        cellákra(TD), "HEIGHT=" mögötti számmal.
+
+        <table bgcolor="orangered" width="100%" border="1" cellpadding="5">
+            <tbody><tr><td height="60" valign="top" align="center">fent középre</td></tr>
+            <tr><td height="100" align="right">
+                <font color="cyan"><b>
+                    Ez középen<br>jobbra<br>lesz
+                    illesztve</b></font></td></tr>
+            <tr><td height="50" valign="bottom">
+                lent balra</td></tr>
+            </tbody></table>
+
+        <table width="100%" cellpadding="5">
+            <tbody><tr><td align="right">Ha<br>elhagyjuk<br>
+                a<br>táblázat<br>keretét<br>és<br>
+                színét<br>is</td>
+                <td>akkor<br>észre<br>se<br>nagyon
+                    <br>vesszük,<br>hogy<br>táblázatot
+                    <br>látunk</td> </tr>
+            </tbody></table>
+
+        </p><center><table width="98%" border="0" cellpadding="0" cellspacing="0" <tr=""><tbody><tr><td bgcolor="yellow">
+    <table cellpadding="16" cellspacing="1" width="100%" border="0">
+        <tbody><tr><td bgcolor="deepskyblue">
+            Sokan kedvelik azt a keretet,
+            amit nem a BORDER-rel lehet megadni,
+            hanem azzal, amit egy színes (itt
+            sárga) táblázatcellának a nála 1-el
+            kisebb méretű (CELLSPACING=1)
+            táblázat által le nem takart része
+            eredményez.
+        </td></tr><tr><td bgcolor="deepskyblue">
+            Ennek a keretnek a színe független a
+            betűszíntől, a formája is más, mint
+            a BORDER-el kapott kereté.
+        </td></tr></tbody></table>
+</td></tr></tbody></table>
+</center></td></tr>
+
+<tr><td bgcolor="azure">
+<pre> Amint látható, az egymás melletti vagy
+ alatti táblázatcellák összevonhatók.
+ &lt;P&gt;&lt;TABLE WIDTH=100% BORDER=1
+     BGCOLOR=limegreen CELLPADDING=15&gt;
+ &lt;TR&gt;&lt;TD WIDTH=25%&gt;
+     Első sor&lt;/TD&gt;&lt;TD COLSPAN=3&gt;
+     három összevont oszloppal&lt;/TD&gt;&lt;/TR&gt;
+ &lt;TR&gt;&lt;TD ROWSPAN=2&gt;2. és 3. sor 1.
+     oszlopa összevonva&lt;/TD&gt;
+     &lt;TD WIDTH=25%&gt;Ez a&lt;/TD&gt;
+     &lt;TD WIDTH=25%&gt;2.&lt;/TD&gt;
+     &lt;TD WIDTH=25%&gt;sor&lt;/TD&gt;&lt;/TR&gt;
+ &lt;TR&gt;&lt;TD&gt;Ez a&lt;/TD&gt;&lt;TD&gt;3.&lt;/TD&gt;&lt;TD&gt;sor&lt;/TD&gt;
+     &lt;/TR&gt;
+ &lt;/TABLE&gt;
+ &lt;P&gt;Az is látszik, hogy az oszlopok (itt
+ azonos) hosszát oszloponként egyszer,
+ ott adjuk meg, ahol akarjuk (és tudjuk).
+</pre>
+</td><td bgcolor="azure">
+    Amint látható, az egymás melletti vagy
+    alatti táblázatcellák összevonhatók.
+    <p><table width="100%" border="1" bgcolor="limegreen" cellpadding="15">
+    <tbody><tr><td width="25%">
+        Első sor</td><td colspan="3">
+        három összevont oszloppal</td></tr>
+    <tr><td rowspan="2">2. és 3. sor 1.
+        oszlopa összevonva</td>
+        <td width="25%">Ez a</td>
+        <td width="25%">2.</td>
+        <td width="25%">sor</td></tr>
+    <tr><td>Ez a</td><td>3.</td><td>sor</td>
+    </tr>
+    </tbody></table>
+    </p><p>Az is látszik, hogy az oszlopok (itt
+    azonos) hosszát oszloponként egyszer,
+    ott adjuk meg, ahol akarjuk (és tudjuk).
+</p></td></tr>
+
+<tr><td bgcolor="orangered">
+<pre> &lt;FONT COLOR=white&gt;&lt;B&gt;
+ A cellákba nemcsak szöveg kerülhet,
+ hanem pl. kép vagy másik táblázat is.
+ Utóbbira ez az anyag maga a példa,
+ előbbire pedig a következő táblázat,
+ amiben a képek ráadásul link-ek is.
+ &lt;/FONT&gt;&lt;/B&gt;
+ &lt;CENTER&gt;&lt;TABLE BORDER=1 CELLPADDING=5&gt;
+ &lt;TR&gt;&lt;TD&gt;&lt;A HREF=kemia.jpg&gt;
+     &lt;IMG SRC=kkemia.jpg
+      ALT="Kémia épület"&gt;&lt;/A&gt;&lt;/TD&gt;
+     &lt;TD&gt;&lt;A HREF=fizika.jpg&gt;
+     &lt;IMG SRC=kfizika.jpg
+      ALT="Fizikus épület"&gt;&lt;/A&gt;&lt;/TD&gt;&lt;/TR&gt;
+ &lt;TR&gt;&lt;TD&gt;&lt;A HREF=infoep.jpg&gt;
+     &lt;IMG SRC=kinfoep.jpg
+      ALT="Az új és a régi Inf. épület"&gt;
+      &lt;/A&gt;&lt;/TD&gt;
+     &lt;TD&gt;&lt;A HREF=ujitcs.jpg&gt;
+     &lt;IMG SRC=kujitcs.jpg
+      ALT="Déli épület, 1999. szept."&gt;
+      &lt;/A&gt;&lt;/TD&gt;
+      &lt;/TR&gt;
+ &lt;/TABLE&gt;
+</pre>
+</td><td bgcolor="orangered">
+    <font color="white"><b>
+        A cellákba nemcsak szöveg kerülhet,
+        hanem pl. kép vagy másik táblázat is.
+        Utóbbira ez az anyag maga a példa,
+        előbbire pedig a következő táblázat,
+        amiben a képek ráadásul link-ek is.
+    </b></font>
+    <center><table border="1" cellpadding="5">
+        <tbody><tr><td><a href="kemia.jpg">
+            <img src="kkemia.jpg" alt="Kémia épület"></a></td>
+            <td><a href="fizika.jpg">
+                <img src="kfizika.jpg" alt="Fizikus épület"></a></td></tr>
+        <tr><td><a href="infoep.jpg">
+            <img src="kinfoep.jpg" alt="Az új és a régi Inf. épület">
+        </a></td>
+            <td><a href="ujitcs.jpg">
+                <img src="kujitcs.jpg" alt="A Déli épület, 1999. szept.">
+            </a></td>
+        </tr>
+        </tbody></table>
+    </center></td></tr>
+
+<tr><td bgcolor="lawngreen">
+<pre> Néhány szó: színekről, háttérről,
+ szöveg illesztésről.
+ &lt;P ALIGN=right&gt;A html lap "BODY" sorában
+ "BACKGROUND=képfájlnév" formában
+ háttérképet adhatunk meg. Ha emellett
+ még a "BGPROPERTIES=fixed" paramétert
+ is beírjuk a sorba, akkor egyes
+ böngészők a html lap scrollozása
+ közben nem mozgatják a hátteret.
+ &lt;P ALIGN=justify&gt;
+ Ha háttérkép helyett háttérszínt
+ akarunk megadni, akkor ezt a "BODY"
+ sorába írt "BGCOLOR=szín" paraméterrel
+ tehetjük. A "szín" vagy a szín angol
+ neve, vagy #RGB-kód lehet, ahogy erről
+ korábban már volt szó.
+ Szintén a "BODY" sorába írt "TEXT=szín"
+ paraméterrel az egész html lap
+ betűszínét adhatjuk meg, amitől aztán
+ &amp;lt;FONT COLOR=szín&amp;gt; és &amp;lt;/FONT&amp;gt;
+ közötti szövegrészekben eltérhetünk.
+ &lt;DIV ALIGN=justify&gt;
+ &lt;P&gt;Ahogy az előző két paragrafust kezdő
+ &lt;B&gt;P&lt;/B&gt; parancsban látható, megadhatunk
+ egy paragrafusra nem balra történő
+ szöveg illesztést is.
+ &lt;P&gt;Ha egy html lapon sok egymás utáni
+ paragrafust (pl. a teljes lapot) akarjuk
+ (pl. balra és jobbra is) illeszteni,
+ akkor célszerű az illesztendő részt egy
+ nagyobb egységgé (ún. "DIV" blokká)
+ kiemelni, és a &lt;B&gt;DIV&lt;/B&gt;-be írni az
+ illesztést, ahogy azt itt tettük.
+ A DIV-nek illik megjelölni a végét.
+ &lt;/DIV&gt;
+</pre>
+</td><td bgcolor="lawngreen">
+    Néhány szó: színekről, háttérről,
+    szöveg illesztésről.
+    <p align="right">A html lap "BODY" sorában
+        "BACKGROUND=képfájlnév" formában
+        háttérképet adhatunk meg. Ha emellett
+        még a "BGPROPERTIES=fixed" paramétert
+        is beírjuk a sorba, akkor egyes
+        böngészők a html lap scrollozása
+        közben nem mozgatják a hátteret.
+    </p><p align="justify">
+    Ha háttérkép helyett háttérszínt
+    akarunk megadni, akkor ezt a "BODY"
+    sorába írt "BGCOLOR=szín" paraméterrel
+    tehetjük. A "szín" vagy a szín angol
+    neve, vagy #RGB-kód lehet, ahogy erről
+    korábban már volt szó.
+    Szintén a "BODY" sorába írt "TEXT=szín"
+    paraméterrel az egész html lap
+    betűszínét adhatjuk meg, amitől aztán
+    &lt;FONT COLOR=szín&gt; és &lt;/FONT&gt;
+    közötti szövegrészekben eltérhetünk.
+</p><div align="justify">
+    <p>Ahogy az előző két paragrafust kezdő
+        <b>P</b> parancsban látható, megadhatunk
+        egy paragrafusra nem balra történő
+        szöveg illesztést is.
+    </p><p>Ha egy html lapon sok egymás utáni
+    paragrafust (pl. a teljes lapot) akarjuk
+    (pl. balra és jobbra is) illeszteni,
+    akkor célszerű az illesztendő részt egy
+    nagyobb egységgé (ún. "DIV" blokká)
+    kiemelni, és a <b>DIV</b>-be írni az
+    illesztést, ahogy azt itt tettük.
+    A DIV-nek illik megjelölni a végét.
+</p></div>
+</td></tr>
+
+</tbody></table>
+<center> <hr> <table><tbody><tr> <td width="700"><em>Csizmazia Albert</em></td> <td><a href="mailto:csa@inf.elte.hu">csa@inf.elte.hu</a></td> </tr></tbody></table><hr></center>
+
+
+
+</body><screen-shader style="display: block; transition: none 0s ease 0s; margin: 0px; padding: 0px; border-radius: 0px; border: none; outline: none; visibility: visible; max-height: none; max-width: none; clip: unset; overflow: visible; opacity: 1;"><!--This is an element that contains all the html for the screen shader extension to work--><div style="display: block; transition: none 0s ease 0s; margin: 0px; padding: 0px; border-radius: 0px; border: none; outline: none; visibility: visible; max-height: none; max-width: none; clip: unset; overflow: visible; opacity: 0; position: fixed; top: -10%; right: -10%; bottom: -10%; left: -10%; width: auto; height: auto; z-index: 2147483646; background: black;"></div><div style="display: block; transition: none 0s ease 0s; margin: 0px; padding: 0px; border-radius: 0px; border: none; outline: none; visibility: visible; max-height: none; max-width: none; clip: unset; overflow: visible; opacity: 1; position: fixed; top: -10%; right: -10%; bottom: -10%; left: -10%; width: auto; height: auto; z-index: 2147483645; background: rgba(255, 147, 41, 0); mix-blend-mode: multiply;"></div><style>screen-shader{pointer-events: none !important;}</style><style></style><html style="display: block; transition: none 0s ease 0s; margin: 0px; padding: 0px; border-radius: 0px; border: none; outline: none; visibility: visible; max-height: none; max-width: none; clip: unset; overflow: visible; opacity: 1; position: fixed; top: -10%; right: -10%; bottom: -10%; left: -10%; width: auto; height: auto; z-index: -2147483647;"></html><div style="display: block; transition: none 0s ease 0s; margin: 0px; padding: 0px; border-radius: 0px; border: none; outline: none; visibility: visible; max-height: none; max-width: none; clip: unset; overflow: visible; opacity: 1; position: fixed; top: -10%; right: -10%; bottom: -10%; left: -10%; width: auto; height: auto; z-index: -2147483646; background: none 0% 0% / auto repeat scroll padding-box border-box rgba(0, 0, 0, 0);"></div></screen-shader></html>
